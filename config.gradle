@@ -1,0 +1,15 @@
+ext {
+    config = [
+            // General
+            baseNamespace       : "by.vfedorenko.mvistarter",
+            appId               : "by.vfedorenko.mvistarter",
+            testAppId           : "by.vfedorenko.mvistarter.test",
+            versionCode         : 1,
+            versionName         : "1.0",
+
+            // Android
+            minSdk              : 26,
+            targetSdk           : 33,
+            compileSdk          : 33
+    ]
+}
